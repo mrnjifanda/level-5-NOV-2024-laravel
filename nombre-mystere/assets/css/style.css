@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: ease-in-out .3s;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 420px;
+    margin: 100px auto;
+    background-color: #292c32;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card .group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.card .group label {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.card .group input {
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid #fff;
+    font-size: 16px;
+}
+
+.card .message {
+    color: #ffff;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.card .message.danger {
+    background: rgb(173 0 0 / 22%);
+    border-left: 3px solid #a52a2a;
+    display: block;
+}
+
+.card .message.success {
+    background: #03717178;
+    border-left: 3px solid #037171;
+    display: block;
+}
+
+.card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+    background: #fff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #ffffff9c;
+}
